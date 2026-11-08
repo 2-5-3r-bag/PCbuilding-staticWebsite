@@ -2178,3 +2178,20 @@ html:has(.side-layout) { scroll-behavior: smooth; }
 .side-layout:has(#tier-8:target, #tier-8 :target) .side-nav a[data-tier="tier-8"] b,
 .side-layout:has(#tier-12:target, #tier-12 :target) .side-nav a[data-tier="tier-12"] b,
 .side-layout:has(#tier-20:target, #tier-20 :target) .side-nav a[data-tier="tier-20"] b { color: var(--accent); }
+
+/* Budget planner sidebar and vertically scrollable build list. */
+.budget-layout { margin-top: 14px; }
+.budget-side-nav .budget-nav-heading { padding: 7px 10px 2px; color: var(--faint); font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; }
+.budget-side-nav a[aria-current="true"] { border-color: var(--accent); background: var(--accent-soft); color: var(--accent); }
+.budget-side-nav a { scroll-margin-top: 140px; }
+.budget-main > .tabs { min-width: 0; }
+.budget-main > .tabs > .tab-bar,
+.budget-main > .tabs > .tab-panels > .tab-panel > .tabs > .tab-bar { display: none; }
+.budget-main .bud-result { grid-template-columns: minmax(0, 1fr); max-height: calc(100vh - 210px); overflow-y: auto; overscroll-behavior: contain; padding: 2px 8px 4px 2px; scrollbar-width: thin; }
+@media (max-width: 960px) {
+  .budget-side-nav { align-items: stretch; flex-direction: column; max-height: 176px; overflow-y: auto; }
+  .budget-side-nav .side-nav-title { display: flex; }
+  .budget-side-nav ul { flex-direction: row; flex-wrap: wrap; overflow: visible; }
+  .budget-side-nav .budget-nav-heading { flex: 0 0 100%; }
+  .budget-main .bud-result { max-height: none; overflow: visible; }
+}
