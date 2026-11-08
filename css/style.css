@@ -2195,3 +2195,21 @@ html:has(.side-layout) { scroll-behavior: smooth; }
   .budget-side-nav .budget-nav-heading { flex: 0 0 100%; }
   .budget-main .bud-result { max-height: none; overflow: visible; }
 }
+
+/* ===== Угсрах заавар: алхам бүрийн зураг ===== */
+.step-figure {
+  margin: 14px 0 4px;
+  padding: 14px 12px 10px;
+  background: var(--stage-bg);
+  background-image: radial-gradient(circle at 50% 42%, var(--stage-glow), transparent 70%);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+}
+.step-figure svg { display: block; width: 100%; max-width: 300px; height: auto; margin: 0 auto; }
+.step-figure figcaption { margin-top: 10px; font-size: 12px; line-height: 1.5; color: var(--muted); text-align: center; }
+.step-figure figcaption b { color: var(--accent); }
+.step-figure .new-part { animation: partGlow 2.2s ease-in-out infinite; }
+@keyframes partGlow {
+  0%, 100% { filter: drop-shadow(0 0 0 transparent); }
+  50% { filter: drop-shadow(0 0 7px var(--accent)); }
+}
