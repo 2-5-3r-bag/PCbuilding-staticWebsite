@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#06070b">
+  <meta name="description" content="PC Build Hub - тоглоомуудын 1080p High тохиргоон дахь CPU болон GPU температурын жишиг харьцуулалт.">
+  <title>Температурын харьцуулалт | PC Угсрагч</title>
+  <link rel="stylesheet" href="temp.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="top-header">
+      <a class="brand" href="index.html" aria-label="PC Угсрагч нүүр хуудас">
+        <span class="brand-icon" aria-hidden="true">⌘</span>
+        <span class="brand-copy">
+          <strong>PC Угсрагч</strong>
+          <small>Эд анги сонгоод компьютераа төлөвлөөрэй</small>
+        </span>
+      </a>
+      <div class="header-actions">
+        <a class="header-button" href="#guide">Түгээмэл асуулт</a>
+        <a class="header-button" href="#footer">Холбоо барих</a>
+      </div>
+    </header>
+
+    <div class="top-gradient" aria-hidden="true"></div>
+
+    <nav class="main-nav" aria-label="Үндсэн цэс">
+      <div class="nav-inner">
+        <a href="index.html"><span class="nav-symbol">⌂</span> Нүүр</a>
+        <a href="builder.html"><span class="nav-symbol">▣</span> Угсрагч</a>
+        <a href="guide.html"><span class="nav-symbol">☷</span> Жишээ заавар</a>
+        <a href="fps.html"><span class="nav-symbol">◴</span> Гүйцэтгэл (FPS)</a>
+        <a href="benchmark.html"><span class="nav-symbol">⌁</span> Benchmark</a>
+        <a href="compare.html"><span class="nav-symbol">◫</span> Харьцуулах</a>
+        <a href="prebuilt.html"><span class="nav-symbol">▤</span> Бэлэн угсралтууд</a>
+        <a href="shop.html"><span class="nav-symbol">🛒</span> Дэлгүүр</a>
+        <a href="catalog.html"><span class="nav-symbol">▣</span> Каталог</a>
+        <a class="nav-active" href="temp.html" aria-current="page"><span class="nav-symbol">♨</span> Температур</a>
+      </div>
+    </nav>
+
+    <main class="page-content">
+      <section class="page-intro">
+        <span class="eyebrow"><span class="live-dot"></span> 1080p HIGH · ТЕМПЕРАТУРЫН ХАРЬЦУУЛАЛТ</span>
+        <h1>Температурын <span>харьцуулалт</span></h1>
+        <p class="intro-text">
+          Бэлэн PC угсралтууд Counter-Strike 2, Valorant, Fortnite болон бусад тоглоомыг
+          1080p (1920×1080) нягтрал, High график тохиргоогоор ажиллуулах үеийн CPU болон GPU-ийн
+          температурыг жишээгээр харьцуулна. Өөрийн төсөвт тохирох PC-г сонгоод дэлгэрэнгүйг үзээрэй.
+        </p>
+        <div class="intro-tags">
+          <span>🖥 1080p (1920×1080)</span>
+          <span>⚙ High Settings</span>
+          <span>🌡 CPU / GPU хэм</span>
+          <span>🎮 6 тоглоом · 7 угсралт</span>
+        </div>
+      </section>
+
+      <div class="content-layout">
+        <aside class="budget-sidebar" aria-label="Төсвөөр угсралт сонгох">
+          <div class="side-heading">
+            <strong>Төсвийн PC</strong>
+            <span>2–20 сая ₮</span>
+          </div>
+          <a class="budget-link" href="#build-2m">
+            <strong>2 сая ₮</strong>
+            <small>Core i3-12100F + Arc A580 8GB</small>
+          </a>
+          <a class="budget-link" href="#build-3m">
+            <strong>3 сая ₮</strong>
+            <small>Core i5-12400F + Radeon RX 7700 XT 12GB</small>
+          </a>
+          <a class="budget-link" href="#build-45m">
+            <strong>4.5 сая ₮</strong>
+            <small>Ryzen 7 5700X3D + Radeon RX 9070 XT 16GB</small>
+          </a>
+          <a class="budget-link selected" href="#build-6m">
+            <strong>6 сая ₮</strong>
+            <small>Ryzen 7 5700X3D + RTX 5080 16GB</small>
+          </a>
+          <a class="budget-link" href="#build-8m">
+            <strong>8 сая ₮</strong>
+            <small>Ryzen 7 9800X3D + RTX 5080 16GB</small>
+          </a>
+          <a class="budget-link" href="#build-12m">
+            <strong>12 сая ₮</strong>
+            <small>Ryzen 7 9800X3D + RTX 4090 24GB</small>
+          </a>
+          <a class="budget-link" href="#build-20m">
+            <strong>20 сая ₮</strong>
+            <small>Ryzen 7 9700X + RTX 5090 32GB</small>
+          </a>
+          <div class="side-note">
+            <span class="note-icon">ⓘ</span>
+            <p>Төсвийн нэр дээр дарж тухайн угсралтын температурын мэдээлэл рүү очно.</p>
+          </div>
+        </aside>
+
+        <section class="results-area" aria-label="Температурын харьцуулалтын үр дүн">
+          <div class="summary-bar">
+            <div>
+              <span class="summary-kicker">ТЕМПЕРАТУРЫН ХАРЬЦУУЛАЛТ</span>
+              <h2>Бэлэн угсралтуудын үзүүлэлт</h2>
+            </div>
+            <span class="summary-count">7 угсралт · 6 тоглоом</span>
+          </div>
+
+          <div class="metric-grid">
+            <article class="metric-card">
+              <span class="metric-label">ХАМРАХ УГСРАЛТ</span>
+              <strong>7 <small>PC</small></strong>
+              <span class="metric-foot">2–20 сая ₮ төсөв</span>
+            </article>
+            <article class="metric-card">
+              <span class="metric-label">ТОГЛООМЫН ТОО</span>
+              <strong>6 <small>GAME</small></strong>
+              <span class="metric-foot">FPS хуудсын тоглоомууд</span>
+            </article>
+            <article class="metric-card">
+              <span class="metric-label">ХАРЬЦУУЛАХ ҮЗҮҮЛЭЛТ</span>
+              <strong>CPU <small>+</small> GPU</strong>
+              <span class="metric-foot">Температур · °C</span>
+            </article>
+          </div>
+
+          <div class="legend-panel">
+            <div class="legend-title">
+              <span class="legend-icon">♨</span>
+              <div>
+                <strong>Температурыг хэрхэн унших вэ?</strong>
+                <small>Тоон утга болон өнгөт шугамаар харуулсан.</small>
+              </div>
+            </div>
+            <div class="legend-items">
+              <span><i class="legend-dot cool"></i> Харьцангуй бага</span>
+              <span><i class="legend-dot normal"></i> Дунд түвшин</span>
+              <span><i class="legend-dot warm"></i> Өндөр талдаа</span>
+            </div>
+          </div>
+
+          <div class="build-list-heading">
+            <div>
+              <h2>Угсралт бүрийн тоглоомын температур</h2>
+              <p>1080p (1920×1080) · High график тохиргооны жишиг</p>
+            </div>
+            <span class="table-unit">БҮГД °C</span>
+          </div>
+
+          <!-- 2 сая төгрөгийн угсралт -->
+          <details class="build-card" id="build-2m" open>
+            <summary class="build-summary">
+              <span class="build-budget">2 сая ₮</span>
+              <span class="build-summary-main">
+                <strong>Core i3-12100F + Intel Arc A580 8GB</strong>
+                <small>Анхан шатны gaming угсралт</small>
+              </span>
+              <span class="build-average"><strong>59° / 67°</strong><small>CPU / GPU дундаж жишиг</small><span class="build-settings-chip"><i aria-hidden="true"></i><strong>1080p</strong><b>HIGH SETTINGS</b></span></span>
+              <span class="expand-mark" aria-hidden="true">⌄</span>
+            </summary>
+            <div class="build-body">
+              <div class="test-settings" aria-label="Тоглоомын температурын жишиг тохиргоо">
+                <div class="test-settings-icon" aria-hidden="true">⚙</div>
+                <div class="test-settings-copy">
+                  <span class="test-settings-label">БҮХ ТОГЛООМЫН ИЖИЛ ТОХИРГОО</span>
+                  <strong><span>1080p</span> <b>HIGH SETTINGS</b></strong>
+                  <small>1920 × 1080 нягтрал · High график тохиргоо · Ray Tracing OFF</small>
+                </div>
+                <span class="test-settings-tag">FULL HD</span>
+              </div>
+              <div class="hardware-line"><span>CPU</span> Intel Core i3-12100F <i></i> <span>GPU</span> Intel Arc A580 8GB</div>
+              <div class="temp-table">
+                <div class="temp-table-head"><span>ТОГЛООМ</span><span>CPU-ИЙН ХЭМ</span><span>GPU-ИЙН ХЭМ</span></div>
+                <div class="game-row"><div class="game-name"><b>Counter-Strike 2</b><small>Esports</small></div><div class="reading"><strong>59°C</strong><div class="temp-track"><span class="cool-fill" style="width:59%"></span></div></div><div class="reading"><strong>68°C</strong><div class="temp-track"><span class="normal-fill" style="width:68%"></span></div></div></div>
+                <div class="game-row"><div class="game-name"><b>Valorant</b><small>Esports</small></div><div class="reading"><strong>56°C</strong><div class="temp-track"><span class="cool-fill" style="width:56%"></span></div></div><div class="reading"><strong>61°C</strong><div class="temp-track"><span class="cool-fill" style="width:61%"></span></div></div></div>
+                <div class="game-row"><div class="game-name"><b>Fortnite</b><small>Battle royale</small></div><div class="reading"><strong>61°C</strong><div class="temp-track"><span class="cool-fill" style="width:61%"></span></div></div><div class="reading"><strong>70°C</strong><div class="temp-track"><span class="normal-fill" style="width:70%"></span></div></div></div>
+                <div class="game-row"><div class="game-name"><b>PUBG: Battlegrounds</b><small>Battle royale</small></div><div class="reading"><strong>62°C</strong><div class="temp-track"><span class="normal-fill" style="width:62%"></span></div></div><div class="reading"><strong>71°C</strong><div class="temp-track"><span class="normal-fill" style="width:71%"></span></div></div></div>
+                <div class="game-row"><div class="game-name"><b>Apex Legends</b><small>Battle royale</small></div><div class="reading"><strong>60°C</strong><div class="temp-track"><span class="cool-fill" style="width:60%"></span></div></div><div class="reading"><strong>69°C</strong><div class="temp-track"><span class="normal-fill" style="width:69%"></span></div></div></div>
+                <div class="game-row"><div class="game-name"><b>Dota 2</b><small>MOBA</small></div><div class="reading"><strong>54°C</strong><div class="temp-track"><span class="cool-fill" style="width:54%"></span></div></div><div class="reading"><strong>60°C</strong><div class="temp-track"><span class="cool-fill" style="width:60%"></span></div></div></div>
+              </div>
+            </div>
+          </details>
+
+          <!-- 3 сая төгрөгийн угсралт -->
+          <details class="build-card" id="build-3m">
+            <summary class="build-summary">
+              <span class="build-budget">3 сая ₮</span>
+              <span class="build-summary-main"><strong>Core i5-12400F + Radeon RX 7700 XT 12GB</strong><small>Дунд түвшний gaming угсралт</small><span class="build-settings-chip"><i aria-hidden="true"></i><strong>1080p</strong><b>HIGH SETTINGS</b></span></span>
+              <span class="build-average"><strong>59° / 65°</strong><small>CPU / GPU дундаж жишиг</small></span>
+              <span class="expand-mark" aria-hidden="true">⌄</span>
+            </summary>
+            <div class="build-body">
+              <div class="test-settings" aria-label="Тоглоомын температурын жишиг тохиргоо">
+                <div class="test-settings-icon" aria-hidden="true">⚙</div>
+                <div class="test-settings-copy">
+                  <span class="test-settings-label">БҮХ ТОГЛООМЫН ИЖИЛ ТОХИРГОО</span>
+                  <strong><span>1080p</span> <b>HIGH SETTINGS</b></strong>
+                  <small>1920 × 1080 нягтрал · High график тохиргоо · Ray Tracing OFF</small>
+                </div>
+                <span class="test-settings-tag">FULL HD</span>
+              </div>
+              <div class="hardware-line"><span>CPU</span> Intel Core i5-12400F <i></i> <span>GPU</span> Radeon RX 7700 XT 12GB</div>
+              <div class="temp-table">
+                <div class="temp-table-head"><span>ТОГЛООМ</span><span>CPU-ИЙН ХЭМ</span><span>GPU-ИЙН ХЭМ</span></div>
+                <div class="game-row"><div class="game-name"><b>Counter-Strike 2</b><small>Esports</small></div><div class="reading"><strong>58°C</strong><div class="temp-track"><span class="cool-fill" style="width:58%"></span></div></div><div class="reading"><strong>64°C</strong><div class="temp-track"><span class="normal-fill" style="width:64%"></span></div></div></div>
+                <div class="game-row"><div class="game-name"><b>Valorant</b><small>Esports</small></div><div class="reading"><strong>54°C</strong><div class="temp-track"><span class="cool-fill" style="width:54%"></span></div></div><div class="reading"><strong>60°C</strong><div class="temp-track"><span class="cool-fill" style="width:60%"></span></div></div></div>
+                <div class="game-row"><div class="game-name"><b>Fortnite</b><small>Battle royale</small></div><div class="reading"><strong>62°C</strong><div class="temp-track"><span class="normal-fill" style="width:62%"></span></div></div><div class="reading"><strong>68°C</strong><div class="temp-track"><span class="normal-fill" style="width:68%"></span></div></div></div>
+                <div class="game-row"><div class="game-name"><b>PUBG: Battlegrounds</b><small>Battle royale</small></div><div class="reading"><strong>63°C</strong><div class="temp-track"><span class="normal-fill" style="width:63%"></span></div></div><div class="reading"><strong>69°C</strong><div class="temp-track"><span class="normal-fill" style="width:69%"></span></div></div></div>
+                <div class="game-row"><div class="game-name"><b>Apex Legends</b><small>Battle royale</small></div><div class="reading"><strong>61°C</strong><div class="temp-track"><span class="cool-fill" style="width:61%"></span></div></div><div class="reading"><strong>70°C</strong><div class="temp-track"><span class="normal-fill" style="width:70%"></span></div></div></div>
+                <div class="game-row"><div class="game-name"><b>Dota 2</b><small>MOBA</small></div><div class="reading"><strong>55°C</strong><div class="temp-track"><span class="cool-fill" style="width:55%"></span></div></div><div class="reading"><strong>59°C</strong><div class="temp-track"><span class="cool-fill" style="width:59%"></span></div></div></div>
+              </div>
+            </div>
+          </details>
+
+          <!-- 4.5 сая төгрөгийн угсралт -->
+          <details class="build-card" id="build-45m">
+            <summary class="build-summary">
+              <span class="build-budget">4.5 сая ₮</span>
+              <span class="build-summary-main"><strong>Ryzen 7 5700X3D + Radeon RX 9070 XT 16GB</strong><small>Өндөр гүйцэтгэлтэй gaming угсралт</small><span class="build-settings-chip"><i aria-hidden="true"></i><strong>1080p</strong><b>HIGH SETTINGS</b></span></span>
+              <span class="build-average"><strong>65° / 67°</strong><small>CPU / GPU дундаж жишиг</small></span>
+              <span class="expand-mark" aria-hidden="true">⌄</span>
+            </summary>
+            <div class="build-body">
+              <div class="test-settings" aria-label="Тоглоомын температурын жишиг тохиргоо">
+                <div class="test-settings-icon" aria-hidden="true">⚙</div>
+                <div class="test-settings-copy">
+                  <span class="test-settings-label">БҮХ ТОГЛООМЫН ИЖИЛ ТОХИРГОО</span>
+                  <strong><span>1080p</span> <b>HIGH SETTINGS</b></strong>
+                  <small>1920 × 1080 нягтрал · High график тохиргоо · Ray Tracing OFF</small>
+                </div>
+                <span class="test-settings-tag">FULL HD</span>
+              </div>
+              <div class="hardware-line"><span>CPU</span> AMD Ryzen 7 5700X3D <i></i> <span>GPU</span> Radeon RX 9070 XT 16GB</div>
+              <div class="temp-table">
+                <div class="temp-table-head"><span>ТОГЛООМ</span><span>CPU-ИЙН ХЭМ</span><span>GPU-ИЙН ХЭМ</span></div>
+                <div class="game-row"><div class="game-name"><b>Counter-Strike 2</b><small>Esports</small></div><div class="reading"><strong>65°C</strong><div class="temp-track"><span class="normal-fill" style="width:65%"></span></div></div><div class="reading"><strong>67°C</strong><div class="temp-track"><span class="normal-fill" style="width:67%"></span></div></div></div>
+                <div class="game-row"><div class="game-name"><b>Valorant</b><small>Esports</small></div><div class="reading"><strong>61°C</strong><div class="temp-track"><span class="cool-fill" style="width:61%"></span></div></div><div class="reading"><strong>61°C</strong><div class="temp-track"><span class="cool-fill" style="width:61%"></span></div></div></div>
+                <div class="game-row"><div class="game-name"><b>Fortnite</b><small>Battle royale</small></div><div class="reading"><strong>68°C</strong><div class="temp-track"><span class="normal-fill" style="width:68%"></span></div></div><div class="reading"><strong>70°C</strong><div class="temp-track"><span class="normal-fill" style="width:70%"></span></div></div></div>
+                <div class="game-row"><div class="game-name"><b>PUBG: Battlegrounds</b><small>Battle royale</small></div><div class="reading"><strong>69°C</strong><div class="temp-track"><span class="normal-fill" style="width:69%"></span></div></div><div class="reading"><strong>72°C</strong><div class="temp-track"><span class="normal-fill" style="width:72%"></span></div></div></div>
+                <div class="game-row"><div class="game-name"><b>Apex Legends</b><small>Battle royale</small></div><div class="reading"><strong>67°C</strong><div class="temp-track"><span class="normal-fill" style="width:67%"></span></div></div><div class="reading"><strong>71°C</strong><div class="temp-track"><span class="normal-fill" style="width:71%"></span></div></div></div>
+                <div class="game-row"><div class="game-name"><b>Dota 2</b><small>MOBA</small></div><div class="reading"><strong>60°C</strong><div class="temp-track"><span class="cool-fill" style="width:60%"></span></div></div><div class="reading"><strong>62°C</strong><div class="temp-track"><span class="normal-fill" style="width:62%"></span></div></div></div>
+              </div>
+            </div>
+          </details>
+
+          <!-- 6 сая төгрөгийн угсралт -->
+          <details class="build-card" id="build-6m">
+            <summary class="build-summary">
+              <span class="build-budget">6 сая ₮</span>
+              <span class="build-summary-main"><strong>Ryzen 7 5700X3D + NVIDIA RTX 5080 16GB</strong><small>Өндөр түвшний gaming угсралт</small><span class="build-settings-chip"><i aria-hidden="true"></i><strong>1080p</strong><b>HIGH SETTINGS</b></span></span>
+              <span class="build-average"><strong>66° / 66°</strong><small>CPU / GPU дундаж жишиг</small></span>
+              <span class="expand-mark" aria-hidden="true">⌄</span>
+            </summary>
+            <div class="build-body">
+              <div class="test-settings" aria-label="Тоглоомын температурын жишиг тохиргоо">
+                <div class="test-settings-icon" aria-hidden="true">⚙</div>
+                <div class="test-settings-copy">
+                  <span class="test-settings-label">БҮХ ТОГЛООМЫН ИЖИЛ ТОХИРГОО</span>
+                  <strong><span>1080p</span> <b>HIGH SETTINGS</b></strong>
+                  <small>1920 × 1080 нягтрал · High график тохиргоо · Ray Tracing OFF</small>
+                </div>
+                <span class="test-settings-tag">FULL HD</span>
+              </div>
+              <div class="hardware-line"><span>CPU</span> AMD Ryzen 7 5700X3D <i></i> <span>GPU</span> NVIDIA RTX 5080 16GB</div>
+              <div class="temp-table">
+                <div class="temp-table-head"><span>ТОГЛООМ</span><span>CPU-ИЙН ХЭМ</span><span>GPU-ИЙН ХЭМ</span></div>
+                <div class="game-row"><div class="game-name"><b>Counter-Strike 2</b><small>Esports</small></div><div class="reading"><strong>66°C</strong><div class="temp-track"><span class="normal-fill" style="width:66%"></span></div></div><div class="reading"><strong>65°C</strong><div class="temp-track"><span class="normal-fill" style="width:65%"></span></div></div></div>
+                <div class="game-row"><div class="game-name"><b>Valorant</b><small>Esports</small></div><div class="reading"><strong>62°C</strong><div class="temp-track"><span class="normal-fill" style="width:62%"></span></div></div><div class="reading"><strong>60°C</strong><div class="temp-track"><span class="cool-fill" style="width:60%"></span></div></div></div>
+                <div class="game-row"><div class="game-name"><b>Fortnite</b><small>Battle royale</small></div><div class="reading"><strong>69°C</strong><div class="temp-track"><span class="normal-fill" style="width:69%"></span></div></div><div class="reading"><strong>70°C</strong><div class="temp-track"><span class="normal-fill" style="width:70%"></span></div></div></div>
+                <div class="game-row"><div class="game-name"><b>PUBG: Battlegrounds</b><small>Battle royale</small></div><div class="reading"><strong>70°C</strong><div class="temp-track"><span class="normal-fill" style="width:70%"></span></div></div><div class="reading"><strong>72°C</strong><div class="temp-track"><span class="normal-fill" style="width:72%"></span></div></div></div>
+                <div class="game-row"><div class="game-name"><b>Apex Legends</b><small>Battle royale</small></div><div class="reading"><strong>68°C</strong><div class="temp-track"><span class="normal-fill" style="width:68%"></span></div></div><div class="reading"><strong>71°C</strong><div class="temp-track"><span class="normal-fill" style="width:71%"></span></div></div></div>
+                <div class="game-row"><div class="game-name"><b>Dota 2</b><small>MOBA</small></div><div class="reading"><strong>61°C</strong><div class="temp-track"><span class="cool-fill" style="width:61%"></span></div></div><div class="reading"><strong>60°C</strong><div class="temp-track"><span class="cool-fill" style="width:60%"></span></div></div></div>
+              </div>
+            </div>
+          </details>
+
+          <!-- 8 сая төгрөгийн угсралт -->
+          <details class="build-card" id="build-8m">
+            <summary class="build-summary">
+              <span class="build-budget">8 сая ₮</span>
+              <span class="build-summary-main"><strong>Ryzen 7 9800X3D + NVIDIA RTX 5080 16GB</strong><small>Дээд түвшний gaming угсралт</small><span class="build-settings-chip"><i aria-hidden="true"></i><strong>1080p</strong><b>HIGH SETTINGS</b></span></span>
+              <span class="build-average"><strong>61° / 66°</strong><small>CPU / GPU дундаж жишиг</small></span>
+              <span class="expand-mark" aria-hidden="true">⌄</span>
+            </summary>
+            <div class="build-body">
+              <div class="test-settings" aria-label="Тоглоомын температурын жишиг тохиргоо">
+                <div class="test-settings-icon" aria-hidden="true">⚙</div>
+                <div class="test-settings-copy">
+                  <span class="test-settings-label">БҮХ ТОГЛООМЫН ИЖИЛ ТОХИРГОО</span>
+                  <strong><span>1080p</span> <b>HIGH SETTINGS</b></strong>
+                  <small>1920 × 1080 нягтрал · High график тохиргоо · Ray Tracing OFF</small>
+                </div>
+                <span class="test-settings-tag">FULL HD</span>
+              </div>
+              <div class="hardware-line"><span>CPU</span> AMD Ryzen 7 9800X3D <i></i> <span>GPU</span> NVIDIA RTX 5080 16GB</div>
+              <div class="temp-table">
+                <div class="temp-table-head"><span>ТОГЛООМ</span><span>CPU-ИЙН ХЭМ</span><span>GPU-ИЙН ХЭМ</span></div>
+                <div class="game-row"><div class="game-name"><b>Counter-Strike 2</b><small>Esports</small></div><div class="reading"><strong>61°C</strong><div class="temp-track"><span class="cool-fill" style="width:61%"></span></div></div><div class="reading"><strong>65°C</strong><div class="temp-track"><span class="normal-fill" style="width:65%"></span></div></div></div>
+                <div class="game-row"><div class="game-name"><b>Valorant</b><small>Esports</small></div><div class="reading"><strong>57°C</strong><div class="temp-track"><span class="cool-fill" style="width:57%"></span></div></div><div class="reading"><strong>60°C</strong><div class="temp-track"><span class="cool-fill" style="width:60%"></span></div></div></div>
+                <div class="game-row"><div class="game-name"><b>Fortnite</b><small>Battle royale</small></div><div class="reading"><strong>64°C</strong><div class="temp-track"><span class="normal-fill" style="width:64%"></span></div></div><div class="reading"><strong>70°C</strong><div class="temp-track"><span class="normal-fill" style="width:70%"></span></div></div></div>
+                <div class="game-row"><div class="game-name"><b>PUBG: Battlegrounds</b><small>Battle royale</small></div><div class="reading"><strong>65°C</strong><div class="temp-track"><span class="normal-fill" style="width:65%"></span></div></div><div class="reading"><strong>72°C</strong><div class="temp-track"><span class="normal-fill" style="width:72%"></span></div></div></div>
+                <div class="game-row"><div class="game-name"><b>Apex Legends</b><small>Battle royale</small></div><div class="reading"><strong>63°C</strong><div class="temp-track"><span class="normal-fill" style="width:63%"></span></div></div><div class="reading"><strong>71°C</strong><div class="temp-track"><span class="normal-fill" style="width:71%"></span></div></div></div>
+                <div class="game-row"><div class="game-name"><b>Dota 2</b><small>MOBA</small></div><div class="reading"><strong>58°C</strong><div class="temp-track"><span class="cool-fill" style="width:58%"></span></div></div><div class="reading"><strong>60°C</strong><div class="temp-track"><span class="cool-fill" style="width:60%"></span></div></div></div>
+              </div>
+            </div>
+          </details>
+
+          <!-- 12 сая төгрөгийн угсралт -->
+          <details class="build-card" id="build-12m">
+            <summary class="build-summary">
+              <span class="build-budget">12 сая ₮</span>
+              <span class="build-summary-main"><strong>Ryzen 7 9800X3D + NVIDIA RTX 4090 24GB</strong><small>1080p High дээр өндөр FPS-д чиглэсэн угсралт</small><span class="build-settings-chip"><i aria-hidden="true"></i><strong>1080p</strong><b>HIGH SETTINGS</b></span></span>
+              <span class="build-average"><strong>61° / 69°</strong><small>CPU / GPU дундаж жишиг</small></span>
+              <span class="expand-mark" aria-hidden="true">⌄</span>
+            </summary>
+            <div class="build-body">
+              <div class="test-settings" aria-label="Тоглоомын температурын жишиг тохиргоо">
+                <div class="test-settings-icon" aria-hidden="true">⚙</div>
+                <div class="test-settings-copy">
+                  <span class="test-settings-label">БҮХ ТОГЛООМЫН ИЖИЛ ТОХИРГОО</span>
+                  <strong><span>1080p</span> <b>HIGH SETTINGS</b></strong>
+                  <small>1920 × 1080 нягтрал · High график тохиргоо · Ray Tracing OFF</small>
+                </div>
+                <span class="test-settings-tag">FULL HD</span>
+              </div>
+              <div class="hardware-line"><span>CPU</span> AMD Ryzen 7 9800X3D <i></i> <span>GPU</span> NVIDIA RTX 4090 24GB</div>
+              <div class="temp-table">
+                <div class="temp-table-head"><span>ТОГЛООМ</span><span>CPU-ИЙН ХЭМ</span><span>GPU-ИЙН ХЭМ</span></div>
+                <div class="game-row"><div class="game-name"><b>Counter-Strike 2</b><small>Esports</small></div><div class="reading"><strong>61°C</strong><div class="temp-track"><span class="cool-fill" style="width:61%"></span></div></div><div class="reading"><strong>68°C</strong><div class="temp-track"><span class="normal-fill" style="width:68%"></span></div></div></div>
+                <div class="game-row"><div class="game-name"><b>Valorant</b><small>Esports</small></div><div class="reading"><strong>57°C</strong><div class="temp-track"><span class="cool-fill" style="width:57%"></span></div></div><div class="reading"><strong>62°C</strong><div class="temp-track"><span class="normal-fill" style="width:62%"></span></div></div></div>
+                <div class="game-row"><div class="game-name"><b>Fortnite</b><small>Battle royale</small></div><div class="reading"><strong>64°C</strong><div class="temp-track"><span class="normal-fill" style="width:64%"></span></div></div><div class="reading"><strong>73°C</strong><div class="temp-track"><span class="normal-fill" style="width:73%"></span></div></div></div>
+                <div class="game-row"><div class="game-name"><b>PUBG: Battlegrounds</b><small>Battle royale</small></div><div class="reading"><strong>65°C</strong><div class="temp-track"><span class="normal-fill" style="width:65%"></span></div></div><div class="reading"><strong>74°C</strong><div class="temp-track"><span class="normal-fill" style="width:74%"></span></div></div></div>
+                <div class="game-row"><div class="game-name"><b>Apex Legends</b><small>Battle royale</small></div><div class="reading"><strong>63°C</strong><div class="temp-track"><span class="normal-fill" style="width:63%"></span></div></div><div class="reading"><strong>73°C</strong><div class="temp-track"><span class="normal-fill" style="width:73%"></span></div></div></div>
+                <div class="game-row"><div class="game-name"><b>Dota 2</b><small>MOBA</small></div><div class="reading"><strong>58°C</strong><div class="temp-track"><span class="cool-fill" style="width:58%"></span></div></div><div class="reading"><strong>62°C</strong><div class="temp-track"><span class="normal-fill" style="width:62%"></span></div></div></div>
+              </div>
+            </div>
+          </details>
+
+          <!-- 20 сая төгрөгийн угсралт -->
+          <details class="build-card" id="build-20m">
+            <summary class="build-summary">
+              <span class="build-budget">20 сая ₮</span>
+              <span class="build-summary-main"><strong>Ryzen 7 9700X + NVIDIA RTX 5090 32GB</strong><small>Тэргүүлэх түвшний gaming угсралт</small><span class="build-settings-chip"><i aria-hidden="true"></i><strong>1080p</strong><b>HIGH SETTINGS</b></span></span>
+              <span class="build-average"><strong>60° / 68°</strong><small>CPU / GPU дундаж жишиг</small></span>
+              <span class="expand-mark" aria-hidden="true">⌄</span>
+            </summary>
+            <div class="build-body">
+              <div class="test-settings" aria-label="Тоглоомын температурын жишиг тохиргоо">
+                <div class="test-settings-icon" aria-hidden="true">⚙</div>
+                <div class="test-settings-copy">
+                  <span class="test-settings-label">БҮХ ТОГЛООМЫН ИЖИЛ ТОХИРГОО</span>
+                  <strong><span>1080p</span> <b>HIGH SETTINGS</b></strong>
+                  <small>1920 × 1080 нягтрал · High график тохиргоо · Ray Tracing OFF</small>
+                </div>
+                <span class="test-settings-tag">FULL HD</span>
+              </div>
+              <div class="hardware-line"><span>CPU</span> AMD Ryzen 7 9700X <i></i> <span>GPU</span> NVIDIA RTX 5090 32GB</div>
+              <div class="temp-table">
+                <div class="temp-table-head"><span>ТОГЛООМ</span><span>CPU-ИЙН ХЭМ</span><span>GPU-ИЙН ХЭМ</span></div>
+                <div class="game-row"><div class="game-name"><b>Counter-Strike 2</b><small>Esports</small></div><div class="reading"><strong>60°C</strong><div class="temp-track"><span class="cool-fill" style="width:60%"></span></div></div><div class="reading"><strong>66°C</strong><div class="temp-track"><span class="normal-fill" style="width:66%"></span></div></div></div>
+                <div class="game-row"><div class="game-name"><b>Valorant</b><small>Esports</small></div><div class="reading"><strong>56°C</strong><div class="temp-track"><span class="cool-fill" style="width:56%"></span></div></div><div class="reading"><strong>60°C</strong><div class="temp-track"><span class="cool-fill" style="width:60%"></span></div></div></div>
+                <div class="game-row"><div class="game-name"><b>Fortnite</b><small>Battle royale</small></div><div class="reading"><strong>63°C</strong><div class="temp-track"><span class="normal-fill" style="width:63%"></span></div></div><div class="reading"><strong>72°C</strong><div class="temp-track"><span class="normal-fill" style="width:72%"></span></div></div></div>
+                <div class="game-row"><div class="game-name"><b>PUBG: Battlegrounds</b><small>Battle royale</small></div><div class="reading"><strong>64°C</strong><div class="temp-track"><span class="normal-fill" style="width:64%"></span></div></div><div class="reading"><strong>74°C</strong><div class="temp-track"><span class="normal-fill" style="width:74%"></span></div></div></div>
+                <div class="game-row"><div class="game-name"><b>Apex Legends</b><small>Battle royale</small></div><div class="reading"><strong>62°C</strong><div class="temp-track"><span class="normal-fill" style="width:62%"></span></div></div><div class="reading"><strong>73°C</strong><div class="temp-track"><span class="normal-fill" style="width:73%"></span></div></div></div>
+                <div class="game-row"><div class="game-name"><b>Dota 2</b><small>MOBA</small></div><div class="reading"><strong>57°C</strong><div class="temp-track"><span class="cool-fill" style="width:57%"></span></div></div><div class="reading"><strong>61°C</strong><div class="temp-track"><span class="cool-fill" style="width:61%"></span></div></div></div>
+              </div>
+            </div>
+          </details>
+
+          <section class="guide-panel" id="guide">
+            <div class="guide-icon">ⓘ</div>
+            <div>
+              <h3>Температурын талаар анхаарах зүйл</h3>
+              <p>Энд харуулсан температурын тоонууд нь бодит төхөөрөмж дээр хийсэн benchmark хэмжилт биш, 1080p High нөхцөлийг тайлбарлах зориулалттай жишиг утгууд юм. Ижил CPU, GPU байсан ч хөргүүр, кейсийн агаарын урсгал, сэнсний тохиргоо, өрөөний хэм болон тоглоомын хувилбараас шалтгаалан бодит температур өөр байна.</p>
+              <p class="guide-assumption">Жишиг нөхцөл: 1080p (1920×1080), High preset, Ray Tracing унтраалттай, өрөөний температур 22–25°C, кейсийн агаарын урсгал хэвийн, эд анги үйлдвэрийн үндсэн тохиргоотой.</p>
+            </div>
+          </section>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer" id="footer">
+      <div class="footer-brand"><span class="brand-icon small">⌘</span><strong>PC Угсрагч</strong></div>
+      <p>Компьютер угсрахад хэрэгтэй мэдээллийг нэг дороос.</p>
+      <span class="footer-copy">© 2026 PC Угсрагч · Температурын мэдээлэл нь жишиг тооцоолол</span>
+    </footer>
+  </div>
+</body>
+</html>
